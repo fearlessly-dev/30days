@@ -27,13 +27,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/fearlessly-dev/30days/tree/main/www',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/fearlessly-dev/30days/tree/main/www',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,30 +57,20 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Concepts',
+            label: 'Exercises',
           },
+          {to: '/showcase', label: 'Showcase', position: 'left'},
           {
-            type: 'doc',
-            docId: 'tutorial-basics/create-a-blog-post',
-            position: 'left',
-            label: 'Tools',
-          },
-          {
-            type: 'doc',
-            docId: 'tutorial-extras/manage-docs-versions',
-            position: 'left',
-            label: 'Development',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/fearlessly-dev/30days',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
+          /*
           {
             title: 'Docs',
             items: [
@@ -120,8 +110,9 @@ const config = {
               },
             ],
           },
+          */
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nitya Narasimhan. Built with ❤️ using Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
