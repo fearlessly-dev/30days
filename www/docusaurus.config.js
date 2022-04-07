@@ -46,19 +46,31 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '#30DaysOf',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: 'Articles', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Concepts',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'tutorial-basics/create-a-blog-post',
+            position: 'left',
+            label: 'Tools',
+          },
+          {
+            type: 'doc',
+            docId: 'tutorial-extras/manage-docs-versions',
+            position: 'left',
+            label: 'Development',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
