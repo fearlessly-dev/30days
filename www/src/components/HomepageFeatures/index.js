@@ -4,20 +4,22 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Building Blocks',
+    title: 'Core Concepts',
     Svg: require('@site/static/img/blocks.svg').default,
     description: (
       <>
-        Start by learning the core concepts behind a technology or framework. Familiarize yourself with key terms.
+        Learn the building blocks and core terminology of this technology.
+        Complete the quickstart, setup dev environment.
       </>
     ),
   },
   {
-    title: 'Code in Action',
+    title: 'Concepts in Practice',
     Svg: require('@site/static/img/action.svg').default,
     description: (
       <>
-        See those concepts in action by completing short tutorials or exercises that help reinforce ideas in real-world contexts.
+        Learn to put concepts to work or understand practical usage by example. 
+        Complete short tutorials and activities.
       </>
     ),
   },

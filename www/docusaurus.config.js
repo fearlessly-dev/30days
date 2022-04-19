@@ -48,7 +48,7 @@ const config = {
       navbar: {
         title: '#30DaysOf',
         logo: {
-          alt: 'My Site Logo',
+          alt: '30 Days of Learning Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -60,9 +60,11 @@ const config = {
             label: 'Exercises',
           },
           {to: '/showcase', label: 'Showcase', position: 'left'},
+          {to: '/contributors', label: 'Contribute', position: 'left'},
           {
             href: 'https://github.com/fearlessly-dev/30days',
-            label: 'GitHub',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: 'right',
           },
         ],

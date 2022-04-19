@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Learn By Doing
+
+![Image Credit Unsplash @markuswinkler](https://images.unsplash.com/photo-1585829365343-ea8ed0b1cb5b)
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
